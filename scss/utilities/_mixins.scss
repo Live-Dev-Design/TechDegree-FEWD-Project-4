@@ -1,0 +1,9 @@
+
+//breakpoint
+$break-m: 768px;
+
+
+@mixin mg-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
