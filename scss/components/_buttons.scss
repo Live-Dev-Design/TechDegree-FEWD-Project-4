@@ -14,7 +14,7 @@
 }
 
 .default {
-  background-color: #51ddfc;
+  background-color: $color-secondary;
 }
 
 .error {
@@ -31,4 +31,22 @@
 
 .warning {
   background-color: #fd7856;
+}
+
+
+/* ============================================= */
+/*              Media Queries                    */
+/* ============================================= */
+
+
+@media (min-width: 768px) {
+
+  .btn {
+    padding: 10px 30px;
+  }
+
+  .btn + .btn {
+    margin-left: 10px;
+  }
+
 }
