@@ -2,7 +2,6 @@
 /*              Variables                        */
 /* ============================================= */
 
-
 // Colors
 $white: #fff;
 $color-primary: #58e1c1;
@@ -24,7 +23,7 @@ $bg-color-11: #51ddfc;
 $bg-color-12: #80e8d1;
 
 
-// colors variable
+// all colors variable
 $bg-colors : (
     $bg-color-1,
     $bg-color-2,
@@ -41,9 +40,9 @@ $bg-colors : (
 );
 
 
-
 // Fonts
 $font-stack-primary: 'Lato', sans-serif;
+
 
 //breakpoint
 $break-m: 768px;

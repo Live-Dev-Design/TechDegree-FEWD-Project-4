@@ -16,8 +16,6 @@
   margin-right: auto;
 }
 
-
-
 [class^=col] {
   display: flex;
   justify-content: center;
@@ -28,7 +26,6 @@
 [class^=col] + [class^=col] {
   margin-left: 10px;
 }
-
 
 .row {
   flex-direction: row;
@@ -79,10 +76,6 @@
     flex-basis: 100px;
   }
 }
-
-// .nav-link {
-//   flex-basis: 100px;
-// }
 
 .btn {
   padding: 10px 30px;

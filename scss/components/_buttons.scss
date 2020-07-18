@@ -18,7 +18,7 @@
     @media (min-width: $break-m) {
         &:hover {
         background-color: $color-secondary-light;
-        transition: background-color 0.3s;
+        @include transition;
       }
     }
   }
@@ -28,7 +28,7 @@
     @media (min-width: $break-m) {
         &:hover {
         background-color: lighten($bg-color-9, 10%);
-        transition: background-color 0.3s;
+        @include transition;
       }
     }
   }
@@ -38,7 +38,7 @@
     @media (min-width: $break-m) {
         &:hover {
         background-color: lighten($bg-color-1, 10%);
-        transition: background-color 0.3s;
+        @include transition;
       }
     }
   }
@@ -48,7 +48,7 @@
     @media (min-width: $break-m) {
         &:hover {
         background-color: lighten($bg-color-10, 10%);
-        transition: background-color 0.3s;
+        @include transition;
       }
     }
   }
@@ -58,7 +58,7 @@
     @media (min-width: $break-m) {
         &:hover {
         background-color: lighten($bg-color-2, 10%);
-        transition: background-color 0.3s;
+        @include transition;
       }
     }
   }

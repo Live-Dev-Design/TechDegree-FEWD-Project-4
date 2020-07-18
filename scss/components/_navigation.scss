@@ -22,13 +22,5 @@
       background-color: $color-primary-light;
     }
   }
-  @media (min-width: $break-m) {
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-    &-link {
-      flex-basis: 100px;
-    }
-  }
 }
 
